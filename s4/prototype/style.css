@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #faf8fc;
+    color: #352641;
+}
+
+header {
+    background: white;
+    padding: 20px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #9255bd;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #352641;
+}
+
+section {
+    padding: 50px 9%;
+}
+
+#accueil {
+    background: #eee1fa;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.liste-projets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carte {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+}
+
+.carte h3 {
+    color: #9255bd;
+}
+
+.carte span {
+    color: #9255bd;
+    font-weight: bold;
+}
+
+.carte a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #9255bd;
+    font-weight: bold;
+}
